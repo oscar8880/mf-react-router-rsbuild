@@ -37,7 +37,7 @@ const webFederationConfig = {
   },
   remoteType: 'import' as const,
   remotes: {
-    remote: "http://localhost:8000/static/js/remote.js",
+    remote: "http://localhost:3001/static/js/remote.js",
   }
   // filename: 'remoteEntry.js',
 }
