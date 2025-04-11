@@ -18,7 +18,6 @@ export default function Home({ loaderData }: Route.ComponentProps) {
       >
         React Router Docs
       </a>
-      <Link to={"/about"}>About</Link>
       <Suspense fallback={<div>Loading...</div>}>
         <RemoteButton />
       </Suspense>

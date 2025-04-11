@@ -41,9 +41,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <div className="flex-1 flex flex-col">
         {/* Top Navigation */}
         <header className="bg-gray-100 p-4 shadow">
-          <h1 className="text-xl font-bold">My Application</h1>
+          <h1 className="text-xl font-bold">One Console</h1>
         </header>
-
         {/* Page Content */}
         <main className="flex-1 p-4">{children}</main>
       </div>

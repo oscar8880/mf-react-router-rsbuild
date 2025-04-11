@@ -25,11 +25,10 @@ const sharedDependencies = {
 // Common Module Federation configuration
 const commonFederationConfig = {
   name: 'remote',
-  shareStrategy: "loaded-first" as const,
+  shareStrategy: "version-first" as const,
   runtime: undefined,
   exposes: {
     './Button': './app/button.tsx',
-    './Chrome': './app/chrome.tsx',
     './About': './app/about.tsx',
   },
   shared: sharedDependencies,
